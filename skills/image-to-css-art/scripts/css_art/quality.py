@@ -71,7 +71,11 @@ class Rasterizer:
         """Mean absolute error at full detail and on a 64 px thumbnail."""
         detail = float(np.abs(self.composite - reference.astype(np.float32)).mean())
         scale = 64 / max(reference.shape[:2])
-        small_ref = cv2.resize(reference, (0, 0), fx=scale, fy=scale, interpolation=cv2.INTER_AREA)
-        small_out = cv2.resize(self.composite, (small_ref.shape[1], small_ref.shape[0]), interpolation=cv2.INTER_AREA)
+        # A narrow side can round to zero, and cv2.resize rejects an empty
+        # dsize, so keep the thumbnail at least one pixel per side.
+        width = max(1, round(reference.shape[1] * scale))
+        height = max(1, round(reference.shape[0] * scale))
+        small_ref = cv2.resize(reference, (width, height), interpolation=cv2.INTER_AREA)
+        small_out = cv2.resize(self.composite, (width, height), interpolation=cv2.INTER_AREA)
         small = float(np.abs(small_out - small_ref.astype(np.float32)).mean())
         return round(detail, 2), round(small, 2)

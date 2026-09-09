@@ -135,6 +135,13 @@ class PipelineTests(unittest.TestCase):
         _, plain = self.convert(Image.fromarray(array), "--colors", "8", "--force")
         self.assertNotIn("similarity", plain)
 
+    def test_score_survives_extreme_aspect_ratios(self):
+        for size in ((1, 200), (200, 1), (10, 4000)):
+            with self.subTest(size=size):
+                _, report = self.convert(Image.new("RGB", size, "red"), "--score", "--force")
+                self.assertIn("similarity", report)
+                self.assertTrue(report["audit"]["valid"])
+
     def test_distant_detail_is_not_merged(self):
         labels = np.zeros((12, 12), np.uint8)
         labels[5, 5] = 1
